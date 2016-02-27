@@ -1,0 +1,15 @@
+[
+	{
+		"id": 1,
+		"name": "AkeebaBackup",
+		"description": "<p>AkeebaBackup.com is a provider of premium extensions for the Joomla! CMS</p> <strong>More info at:</strong> <a href=\"https://www.akeebabackup.com/\" target=\"_blank\">akeebabackup.com</a>"
+	}, {
+		"id": 2,
+		"name": "JoomlaWorks",
+		"description": "<p>JoomlaWorks is developing and supporting some of the most respected and popular extensions in the Joomla! community, including the groundbreaking K2, AllVideos, Simple Image Gallery and Frontpage Slideshow. Since 2006 we have developed more than 26 extensions for the Joomla! CMS, all of which have been used in hundreds of thousands of Joomla! sites across the world.</p><p>Late 2010, our extensions had been downloaded more that 4 million times, out of which AllVideos and Simple Image Gallery had more than 1.5 million downloads each and K2 more than 350,000!</p><p> Innovation and the open source philosophy are the two things that motivate us!</p> <strong>More info at:</strong> <a href=\"http://www.joomlaworks.net/\" target=\"_blank\">joomlaworks.net</a>"
+	}, {
+		"id": 3,
+		"name": "euroVPS",
+		"description": "<p>EuroVPS offers a range of hosting products, such as VPS Servers, Shared Hosting, and Cloud Servers, at affordable pricing built with a mission-critical mindset that is not compatible with downtime.</p> <strong>More info at:</strong> <a href=\"http://www.eurovps.com/\" target=\"_blank\">eurovps.com</a>"
+	}
+]

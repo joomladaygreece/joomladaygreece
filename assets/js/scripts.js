@@ -218,7 +218,7 @@ $jf('.ebButton').on('click', function(e){
 $jf('.silverSponsors').on('click', '.sponsorInfoLink', function(event){
 	event.preventDefault();
 	var sponsorID = $jf(this).data('sponsor-id');
-	$jf.getJSON('http://joomladay.gr/assets/sponsors.json', function(sponsors) {
+	$jf.getJSON('/assets/sponsors.json', function(sponsors) {
 		$jf.each(sponsors, function(index, sponsor) {
 			if(sponsor.id === sponsorID) {
 				triggerModal('#sponsorModal');

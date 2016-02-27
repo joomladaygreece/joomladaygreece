@@ -2,7 +2,7 @@
 
 /**
 * @version		3.0
-* @package		Joomladay.gr
+* @package		JoomlaDay Greece
 * @author		Nuevvo Webware Ltd. - http://nuevvo.com
 * @copyright	Copyright (c) 2013 Nuevvo Webware Ltd. All rights reserved.
 * @license		Commercial
@@ -279,10 +279,6 @@ th.hide-for-touch {display:table-cell!important;}
 .icon-left-circled:before {content:'\e759';}
 /* '' */
 .icon-flickr-circled:before {content:'\f304';}
-/* '' */
-.icon-vimeo:before {content:'\f306';}
-/* '' */
-.icon-vimeo-circled:before {content:'\f307';}
 /* '' */
 .icon-twitter:before {content:'\f309';}
 /* '' */
@@ -443,7 +439,6 @@ ul.tabs li .icon:hover {opacity:1;}
 .socialLinks .linksToOlder {background-position:50% 50%;background-repeat:no-repeat;height:55px;margin:0 auto 15px;}
 .socialLinks .linksToOlder.fk {background-image:url(img/social/flickrLogo.png);}
 .socialLinks .linksToOlder.yt {background-image:url(img/social/ytLogo.png);}
-.socialLinks .linksToOlder.vm {background-image:url(img/social/vimeoLogo.png);}
 .y2013 {margin-bottom:20px;}
 #colophon {color:#fff;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-image:url("img/sections/footerBg.jpg");background-position:50% 50%;background-repeat:no-repeat;padding:70px 0 130px;display:none;}
 #colophon small {display:block;}

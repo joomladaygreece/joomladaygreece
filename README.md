@@ -1,2 +1,1 @@
-# joomladay.gr
-The website for joomladay.gr
+The website for JoomlaDay Greece :)

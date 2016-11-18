@@ -1,0 +1,23 @@
+/**
+ * @version		2.0
+ * @package		SimpleBox
+ * @author    Fotis Evangelou
+ * @copyright	Copyright (c) 2008 - 2013 Fotis Evangelou. All rights reserved.
+ * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ */
+
+#jwIVoverlay { position:absolute; top:0; left:0; margin:0; padding:0; width:100%; height:100%; z-index:1000100; }
+#jwIVcontainer { background:#000; width:100%; height:100%; position:fixed; top:0; left:0; z-index:1000200; opacity:0.7; -moz-opacity:0.7; filter:alpha(opacity=70); margin:0; padding:0; border:none; }
+#jwIVcontainer a,
+#jwIVcontainer a:hover { display:block; width:100%; height:100%; background:none; text-decoration:none; margin:0; padding:0; border:none; }
+#jwIVcontent { background:#060606 url(images/loading.gif) no-repeat 50% 50%; top:50%; left:50%; padding:8px; position:fixed; z-index:1000300; /*overflow:hidden;*/ }
+#jwIVcontent a#jwIVclose,
+#jwIVcontent a#jwIVclose:hover { position:absolute; right:0; top:0; display:block; width:28px; height:28px; background:url(images/close.png) no-repeat 0 0; float:right; text-align:right; margin:0; padding:0; text-decoration:none; }
+#jwIVcontent a img { border:none; }
+#jwIVcontent a#jwIVimage { border:none; display:block; width:100%; height:100%; }
+#jwIVcontent span#sbcaption { font-size:11px; font-weight:bold; color:#fff; position:absolute; left:0; bottom:30px; display:block; background:#000; display:block; margin:8px; padding:8px 8px; opacity:0.8; -moz-opacity:0.8; filter:alpha(opacity=80); }
+
+/* IE6 specific styling */
+html.sbIsIE6 { overflow:hidden; }
+html.sbIsIE6 #jwIVcontainer,
+html.sbIsIE6 #jwIVcontent { position:absolute; }

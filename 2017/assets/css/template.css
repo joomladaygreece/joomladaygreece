@@ -694,6 +694,7 @@ img { border: none; }
 #backstretch { position: fixed; z-index: 1; -webkit-transform: translate3d(0, 0, 0); background-size: cover !important; left: auto; bottom: 0; width: 100%; max-width: 85.37em; top: 0; }
 
 h1.logo { margin-bottom: 50px; }
+  h1.logo img { max-width: 250px; }
 
 /* only for category and item listings */
 #backstretch:after { position: absolute; left: 0; top: 0; right: 0; bottom: 0; content: ""; display: block; background: rgba(65, 64, 66, 0.7); }

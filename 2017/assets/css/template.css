@@ -995,9 +995,11 @@ ul.social-menu li .icon { font-size: 3.75em; }
 .speaker-module .speaker-item { margin: 0 0 30px; }
 .speaker-module .speaker-avatar { border: 2px solid #1fce6e; overflow: hidden; position: relative; padding-bottom: 100%; border-radius: 100%; margin-bottom: 30px; clear: both; }
 .speaker-module .speaker-avatar img { position: absolute; left: 0; top: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; }
+.speaker-social { }
+.speaker-social a { font-size: 28px; display: inline-block; vertical-align: top; color: rgba(65, 64, 66, 0.5); }
+.speaker-social a:hover { color: #1fce6e; text-decoration: none; }
 .speaker-module .moduleItemIntrotext { font-size: 0.875em; font-weight: 400; line-height: 1.35714; }
 .speaker-module .moduleItemIntrotext p { display: inline; }
-.speaker-module .moduleItemIntrotext .icon { font-size: 1.78571em; line-height: 0.8; line-height: 1; display: block; }
 .speaker-module h3 { font-size: 1.6875em; line-height: 1; padding: 0 0 8px; }
 .speaker-module h4 { font-size: 1.125em; line-height: 1; padding: 0 0 12px; }
 

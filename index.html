@@ -23,6 +23,11 @@
 		<link rel="apple-touch-icon-precomposed" href="assets/img/ios/apple-touch-icon-72x72-precomposed" sizes="72x72" />
 		<link rel="apple-touch-icon-precomposed" href="assets/img/ios/apple-touch-icon-144x144-precomposed" sizes="144x144" />
 
+		<script>
+			/* URL Normalizer: Force redirect to HTTPS */
+			if(!(window.location.host.startsWith("127.0.0.1") || window.location.host.startsWith("localhost")) && (window.location.protocol != "https:")) window.location.protocol = "https:";
+		</script>
+
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic&subset=latin,greek|Open+Sans:300italic,400italic,700italic,400,300,700&subset=latin,greek" />
 		<link rel="stylesheet" type="text/css" href="assets/style.css?v=20130612" />
 

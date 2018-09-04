@@ -23,6 +23,11 @@
 		<link rel="apple-touch-icon-precomposed" href="assets/img/ios/apple-touch-icon-72x72-precomposed" sizes="72x72" />
 		<link rel="apple-touch-icon-precomposed" href="assets/img/ios/apple-touch-icon-144x144-precomposed" sizes="144x144" />
 
+		<script>
+			/* URL Normalizer: Force redirect to HTTPS */
+			if(!(window.location.host.startsWith("127.0.0.1") || window.location.host.startsWith("localhost")) && (window.location.protocol != "https:")) window.location.protocol = "https:";
+		</script>
+
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic&subset=latin,greek|Open+Sans:300italic,400italic,700italic,400,300,700&subset=latin,greek" />
 		<link rel="stylesheet" type="text/css" href="assets/style.css?v=20130612" />
 
@@ -48,7 +53,7 @@
 			<div class="topUnit">
 				<div class="row">
 					<div class="spreadTheWord column hide-on-small small-1 large-6 uppercase"> <a href="/"> <i class="icon-left-circled floatLeft"></i> <span class="hide-for-small"><strong>επιστροφη</strong> στην αρχικη σελιδα</span> </a> </div>
-					<div class="goldenSponsor column small-11 large-6 textRight uppercase"> <a href="http://www.microsoft.com/el-gr/default.aspx" target="_blank" title="Microsoft Hellas- Χρυσός Χορηγός Joomladay 2013" class="microsoftLink"> <img src="assets/img/sponsors/msLogo273x57.png" alt="Microsoft Hellas- Χρυσός Χορηγός Joomladay 2013" /> <span>Χρυσος Χορηγoς</span> </a> </div>
+					<div class="goldenSponsor column small-11 large-6 textRight uppercase"> <a href="https://www.microsoft.com/el-gr/" target="_blank" title="Microsoft Hellas- Χρυσός Χορηγός Joomladay 2013" class="microsoftLink"> <img src="assets/img/sponsors/msLogo273x57.png" alt="Microsoft Hellas- Χρυσός Χορηγός Joomladay 2013" /> <span>Χρυσος Χορηγoς</span> </a> </div>
 				</div>
 			</div>
 			<div class="row">
@@ -72,11 +77,11 @@
 					<div class="imgBlock">
 						<img src="assets/img/sponsors/euroVPS.png" alt="euroVPS" class="hasTip" />
 						<div class="tooltip">
-							<a href="http://www.eurovps.com/" target="_blank"><i class="icon-link"></i>LINK</a> <a href="#" class="sponsorInfoLink" data-sponsor-id="3"><i class="icon-info-circled"></i> INFO</a>
+							<a href="https://www.eurovps.com/" target="_blank"><i class="icon-link"></i>LINK</a> <a href="#" class="sponsorInfoLink" data-sponsor-id="3"><i class="icon-info-circled"></i> INFO</a>
 						</div>
 					</div>
 					<div class="imgBlock"> <img src="assets/img/sponsors/joomlaworks.png" alt="JoomlaWorks" class="hasTip" />
-						<div class="tooltip"> <a href="http://www.joomlaworks.net" target="_blank"><i class="icon-link"></i>LINK</a> <a href="#" class="sponsorInfoLink" data-sponsor-id="2"><i class="icon-info-circled"></i> INFO</a> </div>
+						<div class="tooltip"> <a href="https://www.joomlaworks.net" target="_blank"><i class="icon-link"></i>LINK</a> <a href="#" class="sponsorInfoLink" data-sponsor-id="2"><i class="icon-info-circled"></i> INFO</a> </div>
 					</div>
 					<div class="clr"></div>
 					<a class="button small-centered transition" href="sponsors.html">ΓΙΝΕΤΕ ΧΟΡΗΓΟΣ</a> </div>
@@ -124,7 +129,7 @@
 		<footer id="colophon">
 			<div class="row">
 				<div class="column textCenter small-12 large-8 large-offset-2 crights"> <small><b>Copyright © 2013 JoomlaDay Athens Group</b> <br />
-					Joomla! is a registered trademark of <a href="http://www.opensourcematters.org/" target="_blank" title="Open Source Matters">Open Source Matters, Inc.</a> <br />
+					Joomla! is a registered trademark of <a href="https://www.opensourcematters.org/" target="_blank" title="Open Source Matters">Open Source Matters, Inc.</a> <br />
 					JoomlaDay Greece is not affiliated with or endorsed by the Joomla! Project or Open Source Matters. The Joomla! name and logo is used under a limited license granted by Open Source Matters the trademark holder in the United States and other countries.</small> </div>
 				<div class="flogo small-centered"></div>
 			</div>

@@ -437,8 +437,9 @@ ul.tabs li .icon:hover {opacity:1;}
 .socialLinks h4 {margin:0 0 2px;font-size:22px;line-height:60px;}
 .socialLinks .sBg {height:175px;padding:25px 0;}
 .socialLinks .linksToOlder {background-position:50% 50%;background-repeat:no-repeat;height:55px;margin:0 auto 15px;}
-.socialLinks .linksToOlder.fk {background-image:url(img/social/flickrLogo.png);}
 .socialLinks .linksToOlder.yt {background-image:url(img/social/ytLogo.png);}
+.socialLinks .linksToOlder.fk {background-image:url(img/social/flickrLogo.png);}
+.socialLinks .linksToOlder.gp {background-image:url(img/social/google_photos.png);}
 .y2013 {margin-bottom:20px;}
 #colophon {color:#fff;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-image:url("img/sections/footerBg.jpg");background-position:50% 50%;background-repeat:no-repeat;padding:70px 0 130px;display:none;}
 #colophon small {display:block;}
